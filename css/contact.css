@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contact {   height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/slider6.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.contactform 
+    {
+     width: 500px;
+     height: 530px;
+     position: relative;
+     background:white;
+     font-size: 30px;
+     margin: 6% auto;
+     padding:5px;
+     
+     overflow: hidden;
+}
+.contactform  input,label,textarea
+{
+width:90%;
+padding: 20px;
+margin:10px;
+}
+.input-field{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+}
+
+.submitbutton{
+    width:85%;
+    padding: 10px 30px;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
